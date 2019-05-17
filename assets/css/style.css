@@ -1,0 +1,52 @@
+header {
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 75px;
+}
+
+header img {
+    width: 200px;
+    text-align: center;
+}
+
+section {
+    float: left;
+}
+
+div {
+    text-align: center;
+}
+
+article {
+    float: left;
+    width: 30%;
+    margin: 10px;
+}
+
+section img {
+    width: 100%;
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+}
+
+nav-header {
+    margin-bottom: 20px;
+}
+
+nav-footer.ul {
+    display: inline;
+}
+
+p {
+    float: none;
+}
