@@ -1,0 +1,202 @@
+@import 'reset'
+
+body 
+    margin: 25px 20px 0px 20px
+   
+    // header-page__head //
+
+.header-page 
+    position: sticky
+    top: 0
+    background-color: rgba(255,255,255,0.8)
+
+    &__head
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        padding-top: 20px
+        padding-bottom: 15px
+        
+
+    &__logo img
+        width: 140px
+
+    &__nav ul li
+        display: inline
+        margin: 5px
+
+    &__nav a 
+        text-decoration: none
+        color: black
+
+    &__search-user
+        display: flex
+        align-items: center
+    
+    &__search-user img
+        width: 15px
+    
+    &__search-user form
+        margin-right: 15px
+    
+    &__search-user form label
+        padding-right: 5px
+
+    &__search-user button
+        margin-right: 5px
+        border-style: none;
+        outline: none;
+
+    // header-page__head //
+
+    &__footer
+        display: flex
+        justify-content: center
+        padding-bottom: 20px
+
+    &__links
+        display: flex
+        flex-grow: 2
+        justify-content: flex-end
+        margin-right: 120px
+
+    &__filters
+        display: flex
+        flex-grow: 1
+        justify-content: flex-end
+
+    &__links ul li
+        display: inline
+        margin: 5px
+
+    &__links ul li:nth-child(2):before
+        content: ' > '
+
+    &__links ul li:last-child:before
+        content: ' > '
+
+    &__links ul li:last-child:after
+        content: ' >  Básicas (79 artículos)'
+
+
+    // content-page
+
+.content-page
+    display: flex
+    justify-content: center
+    flex-direction: column
+
+    &__group-product
+        display: flex
+        justify-content: center
+        flex-wrap: wrap
+    &__product
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        margin: 5px
+
+    &__content-text-item-1
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        margin-top: 8px
+    
+    &__content-text-item-1 span:first-child
+        margin-bottom: 5px
+
+    // content_page__group-text-item-1
+
+    &__group-text-item-1
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        padding-top: 80px
+        padding-bottom: 25px
+
+    &__content-box-text-1
+        display: flex
+        flex-direction: column
+        align-items: center
+        width: 30%
+
+    &__group-text-item-2
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        padding-top: 40px
+        padding-bottom: 25px
+        
+    &__content-box-text-2
+        display: flex
+        flex-direction: column
+        align-items: center
+        width: 50%
+
+    &__content-box-desc
+        display: flex
+        flex-direction: column
+        align-items: center
+        padding-bottom: 30px
+
+    &__content-box-text-2 form
+        display: flex
+        flex-direction: column
+
+    &__input-email
+        display: flex
+        justify-content: center
+        flex-direction: column
+        padding-bottom: 20px
+    
+    &__input-email label 
+        align-self: center
+
+    &__input-sexo
+        display: flex
+        flex-direction: row
+        margin-bottom: 20px
+
+    &__terminos 
+        margin-left: 105px
+
+    &__baja
+        display: flex
+        justify-content: center
+        align-content: center
+        align-items: center
+        padding-top: 15px;
+
+    &__contact
+        display: flex
+        justify-content: center
+        padding-top: 20px;
+        padding-bottom: 50px;
+
+    &__content-contact 
+        display: flex
+        justify-content: center
+        align-content: center
+        align-items: center
+        flex-direction: column
+
+    &__contact-links
+        display: flex
+        align-content: center
+        align-items: center
+
+    &__contact-links span:nth-child(1):after
+        margin: 5px
+        content: ' | '
+
+    &__contact-links span:last-child:before
+        margin: 8px
+        content: ' | '
+    
+    &__img-phone 
+        width: 15px
+
